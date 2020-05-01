@@ -1,18 +1,25 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-5ce86952-c37a-4a65-9981-45f0faf0ae8b=none
 
+[Alacritty.desktop][Global Shortcuts]
+New=none
+_launch=Meta+Return
+
+[KDE Keyboard Layout Switcher][Global Shortcuts]
+Switch keyboard layout to English (US)=none
+Switch to Next Keyboard Layout=none
+
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
 
-[kded5][Global Shortcuts]
+[kcm_touchpad][Global Shortcuts]
 Disable Touchpad=none
 Enable Touchpad=none
 Show System Activity=none
-Switch keyboard layout to English (US)=none
-Switch to Next Keyboard Layout=none
 Toggle Touchpad=none
 display=none
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{eb5ba081-4c85-4adb-8ebb-46c80038a789}=none
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -21,10 +28,6 @@ increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
 mic_mute=Microphone Mute
 mute=Volume Mute
-
-[krunner.desktop][Global Shortcuts]
-RunClipboard=none
-_launch=Alt+Space; Alt+F2; Search
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=none
@@ -42,6 +45,33 @@ ExposeClass=none
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=none
+Krohnkite: Cycle Layout=Meta+Space
+Krohnkite: Decrease=none
+Krohnkite: Down/Next=Meta+J; Meta+Down
+Krohnkite: Float=Meta+Shift+Space
+Krohnkite: Float All=none
+Krohnkite: Floating Layout=none
+Krohnkite: Grow Height=none
+Krohnkite: Grow Width=none
+Krohnkite: Increase=none
+Krohnkite: Left=Meta+H; Meta+Left
+Krohnkite: Monocle Layout=none
+Krohnkite: Move Down/Next=Meta+Shift+J; Meta+Shift+Down
+Krohnkite: Move Left=Meta+Shift+H; Meta+Shift+Left
+Krohnkite: Move Right=Meta+Shift+L; Meta+Shift+Right
+Krohnkite: Move Up/Prev=Meta+Shift+K; Meta+Shift+Up
+Krohnkite: Next Layout=none
+Krohnkite: Previous Layout=none
+Krohnkite: Quarter Layout=none
+Krohnkite: Right=Meta+L; Meta+Right
+Krohnkite: Set master=none
+Krohnkite: Shrink Height=none
+Krohnkite: Shrink Width=none
+Krohnkite: Spread Layout=none
+Krohnkite: Stair Layout=none
+Krohnkite: Three Column Layout=none
+Krohnkite: Tile Layout=none
+Krohnkite: Up/Prev=Meta+K; Meta+Up
 MoveMouseToCenter=none
 MoveMouseToFocus=none
 MoveZoomDown=none
@@ -113,7 +143,7 @@ Window Fullscreen=Meta+F
 Window Grow Horizontal=none
 Window Grow Vertical=none
 Window Lower=none
-Window Maximize=Meta+M
+Window Maximize=none
 Window Maximize Horizontal=none
 Window Maximize Vertical=none
 Window Minimize=Meta+N
@@ -178,32 +208,7 @@ view_actual_size=none
 view_zoom_in=none
 view_zoom_out=none
 
-[mediacontrol][Global Shortcuts]
-mediavolumedown=none
-mediavolumeup=none
-nextmedia=Media Next
-playpausemedia=Media Play
-previousmedia=Media Previous
-stopmedia=Media Stop
-
-[org.kde.dolphin.desktop][Global Shortcuts]
-_launch=none
-
-[org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=none
-
-[org_kde_powerdevil][Global Shortcuts]
-Decrease Keyboard Brightness=Keyboard Brightness Down
-Decrease Screen Brightness=Monitor Brightness Down
-Hibernate=Hibernate
-Increase Keyboard Brightness=Keyboard Brightness Up
-Increase Screen Brightness=Monitor Brightness Up
-PowerOff=Power Off
-Sleep=Sleep
-Toggle Keyboard Backlight=Keyboard Light On/Off
-Turn Off Screen=none
-
-[plasmashell][Global Shortcuts]
+[lattedock][Global Shortcuts]
 activate entry 1=none
 activate entry 10=none
 activate entry 11=none
@@ -233,7 +238,7 @@ activate task manager entry 6=none
 activate task manager entry 7=none
 activate task manager entry 8=none
 activate task manager entry 9=none
-activate widget 76=Meta+D
+activate widget 89=Meta+D
 clear-history=none
 clipboard_action=none
 cycleNextAction=none
@@ -272,3 +277,22 @@ stop current activity=none
 switch to next activity=none
 switch to previous activity=none
 toggle do not disturb=none
+
+[mediacontrol][Global Shortcuts]
+mediavolumedown=none
+mediavolumeup=none
+nextmedia=Media Next
+playpausemedia=Media Play
+previousmedia=Media Previous
+stopmedia=Media Stop
+
+[org_kde_powerdevil][Global Shortcuts]
+Decrease Keyboard Brightness=Keyboard Brightness Down
+Decrease Screen Brightness=Monitor Brightness Down
+Hibernate=Hibernate
+Increase Keyboard Brightness=Keyboard Brightness Up
+Increase Screen Brightness=Monitor Brightness Up
+PowerOff=Power Off; Meta+Esc
+Sleep=Sleep
+Toggle Keyboard Backlight=Keyboard Light On/Off
+Turn Off Screen=none
