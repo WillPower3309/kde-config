@@ -1,6 +1,21 @@
 # kde-config
 Optimal configuration files for the KDE Desktop Environment
 
+## Tiling
++ Install `Krohnkite` though the KWin Scripts section of the System Settings
++ Run the following commend to get access to changing Krohnkite's settings in the KWin Scripts settings:
+
+```
+mkdir -p ~/.local/share/kservices5/
+ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kservices5/krohnkite.desktop
+```
+
++ Enable Krohnkite and access its settings
+  + In `Layout` deselect every layout except `Tile Layout`
+  + Add a desired gap in `Geometry` (I like 15 for normal DPI displays)
+  + In `Behaviour` select `Directional` in the `Directional Keys Behaviours` area
+  + Apply changes
+
 ## Shortcuts
 Designed to emulate popular tiling window managers
 
