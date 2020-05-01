@@ -22,6 +22,10 @@ Designed to emulate popular tiling window managers
 ## Latte Layout
 Beautiful macOS esque layout with a "get out of my way when I don't need you" design philosophy
 
+### Global Menu
++ In order to have the global menu work with GTK apps, install `appmenu-gtk-module`
++ In order to have the global menu work with electron apps, install `libdbusmenu-glib`
+
 ## Emacs
 + Install [doom emacs](https://github.com/hlissner/doom-emacs)
 
