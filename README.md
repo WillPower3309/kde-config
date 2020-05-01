@@ -38,6 +38,7 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 + Install `Smart video wallpaper` from `Configure Desktop`
 + Change the `Wallpaper Type` dropdown menu to `Smart video wallpaper`
 + Select the video in this repo
+    + Video is from [this youtube video](https://www.youtube.com/watch?v=NAEVf9M-pLE)
 
 + To get the menu bar back (for the KDE global menu):
   + Navigate to `.emacs.d`
