@@ -14,10 +14,13 @@ ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kser
   + In `Layout` deselect every layout except `Tile Layout`
   + Add a desired gap in `Geometry` (I like 15 for normal DPI displays)
   + In `Behaviour` select `Directional` in the `Directional Keys Behaviours` area
+  + In `Options` select `Remove borders of tiled windows`
   + Apply changes
++ In `System Settings`, under `Window Behaviour`, change the `Window activation policy` to `Focus follows mouse` and set `Delay focus` to `0ms`
 
 ## Shortcuts
 Designed to emulate popular tiling window managers
++ Ensure there are 10 virtual desktops in kde
 
 ## Latte Layout
 Beautiful macOS esque layout with a "get out of my way when I don't need you" design philosophy
@@ -36,6 +39,7 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 
 ## Video Wallpaper
 + Install `Smart video wallpaper` from `Configure Desktop`
++ Install `gst-libav`, and restart your computer
 + Change the `Wallpaper Type` dropdown menu to `Smart video wallpaper`
 + Select the video in this repo
     + Video is from [this youtube video](https://www.youtube.com/watch?v=NAEVf9M-pLE)
