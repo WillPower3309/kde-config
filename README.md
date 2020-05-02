@@ -47,3 +47,21 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 + To get the menu bar back (for the KDE global menu):
   + Navigate to `.emacs.d`
   + remove the line `(add-to-list 'default-frame-alist '(menu-bar-lines . 0))` from `core-el.el`
+
+## Shell
+1. install `zsh`
+2. Install `oh-my-zsh` with the below command
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+3. Install Plugins
+  + Syntax highlighting (copy and paste the below command to install)
+    ```
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+  + Autosuggestions (copy and paste the below command to install)
+    ```
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+4. Copy the `.zshrc` file in this repo to your home directory
+5. Fini! Reopen the terminal to view the fruit of your labor
