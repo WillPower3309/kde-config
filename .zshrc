@@ -61,3 +61,7 @@ PATH=/home/will/.local/bin:$PATH
 # Enable Vi Mode
 bindkey -v
 
+# Enable Advanced Tab Completion
+autoload -U compinit
+compinit
+
