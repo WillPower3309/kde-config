@@ -65,3 +65,15 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
     ```
 4. Copy the `.zshrc` file in this repo to your home directory
 5. Fini! Reopen the terminal to view the fruit of your labor
+
+## GRUB Auto Boot
+To auto boot linux change the `/etc/default/grub` boot loader configuration to:
+```
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_DISTRIBUTOR="Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet acpi=copy_dsdt splash"
+GRUB_CMDLINE_LINUX=""
+```
