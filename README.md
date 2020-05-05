@@ -24,6 +24,7 @@ Designed to emulate popular tiling window managers
 
 ## Latte Layout
 Beautiful macOS esque layout with a "get out of my way when I don't need you" design philosophy
+
 **Widgets (in order):**
 + Left:
   + Application Dashboard
