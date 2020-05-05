@@ -24,7 +24,18 @@ Designed to emulate popular tiling window managers
 
 ## Latte Layout
 Beautiful macOS esque layout with a "get out of my way when I don't need you" design philosophy
-
+**Widgets (in order):**
++ Left:
+  + Application Dashboard
+  + [Virtual Desktop Bar](https://github.com/wsdfhjxc/virtual-desktop-bar)
+  + Application Title
+  + Global Menu
++ Middle:
+  + Digital Clock
++ Right: 
+  + System Tray
+  + Window Buttons
+  
 ### Global Menu
 + In order to have the global menu work with GTK apps, install `appmenu-gtk-module`
 + In order to have the global menu work with electron apps, install `libdbusmenu-glib`
@@ -50,11 +61,15 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 
 ## Shell
 1. install `zsh`
-2. Install `oh-my-zsh` with the below command
+2. Install `powerlevel10k`
+```
+pacman -S zsh-theme-powerlevel10k
+```
+3. Install `oh-my-zsh` with the below command
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-3. Install Plugins
+4. Install Plugins
   + Syntax highlighting (copy and paste the below command to install)
     ```
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -63,8 +78,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
     ```
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
-4. Copy the `.zshrc` file in this repo to your home directory
-5. Fini! Reopen the terminal to view the fruit of your labor
+5. Copy the `.zshrc` file in this repo to your home directory
+6. Fini! Reopen the terminal to view the fruit of your labor
 
 ## GRUB Auto Boot
 To auto boot linux change the `/etc/default/grub` boot loader configuration to:
