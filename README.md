@@ -43,13 +43,29 @@ Beautiful macOS esque layout with a "get out of my way when I don't need you" de
 + In order to have the global menu work with GTK apps, install `appmenu-gtk-module`
 + In order to have the global menu work with electron apps, install `libdbusmenu-glib`
 
-## Emacs
+## Application Theming
+
+### Emacs
 + Install [doom emacs](https://github.com/hlissner/doom-emacs)
 
 ```
 git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 ```
+
+### Neovim
+
+1. Ensure the nvim folder from the repo has been copied into the ~/.config directory
+2. Install VimPlug with
+
+```
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+3. Open neovim and run :PlugInstall
+4. Exit and reopen neovim
+
 
 ## Video Wallpaper
 + Install `Smart video wallpaper` from `Configure Desktop`
