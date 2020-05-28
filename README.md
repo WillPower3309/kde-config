@@ -1,6 +1,8 @@
 # kde-config
 Optimal configuration files for the KDE Desktop Environment
 
+![](/thumbnail.png)
+
 ## Tiling
 + Install `Krohnkite` though the KWin Scripts section of the System Settings
 + Run the following commend to get access to changing Krohnkite's settings in the KWin Scripts settings:
