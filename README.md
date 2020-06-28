@@ -66,6 +66,21 @@ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 3. Open neovim and run :PlugInstall
 4. Exit and reopen neovim
 
+### Spotify
+1. Install `spicetify-cli`
+2. Chown spotify directory: `sudo chown $USER -R /opt/spotify`
+3. Run `spicetify` once to generate config
+4. `spicetify backup apply enable-devtool` to enable devtools
+5. Move the `spicetify/Dribbblish` folder into the `~/.config/spicetify/Themes` folder
+6. Move the `spicetify/dribbblish.js` file into the `~/.config/spicetify/Extensions` folder
+7. Run:
+
+```
+spicetify config extensions dribbblish.js
+spicetify config current_theme Dribbblish color_scheme base
+spicetify config inject_css 1 replace_colors 1 
+spicetify apply
+```
 
 ## Video Wallpaper
 + Install `Smart video wallpaper` from `Configure Desktop`
