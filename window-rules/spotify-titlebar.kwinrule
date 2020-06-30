@@ -1,0 +1,12 @@
+[Spotify Titlebar Color]
+Description=Spotify Titlebar Color
+clientmachine=localhost
+clientmachinematch=0
+decocolor=Spotify
+decocolorrule=2
+title=Spotify Premium
+titlematch=1
+types=1
+wmclass=spotify
+wmclasscomplete=false
+wmclassmatch=1

@@ -1,0 +1,9 @@
+[Firefox Titlebar Color]
+Description=Firefox Titlebar Color
+clientmachine=localhost
+clientmachinematch=0
+decocolor=Firefox
+decocolorrule=2
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1

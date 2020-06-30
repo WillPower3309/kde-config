@@ -45,6 +45,11 @@ Beautiful macOS esque layout with a "get out of my way when I don't need you" de
 
 ## Application Theming
 
+### Colors ###
+The top panel is set to change it's color based off of the titlebar color of the application thats maximized (even if the titlebars aren't displayed like in our case). This means we need a color scheme for each application we're using, and this is accomplished by having window rules set a color scheme for each applciation that doesnt look right with the top panel matching the default qt theme titlebar color.
+1. Install all the color schemes located in `color-schemes` via kde's system settings. Alternatively, copy / symlink them to the `~/.kde4/share/apps/color-schemes` folder
+2. In system settings, under Window Management -> Window Rules, import all of the rules located in the `window-rules` folder
+
 ### Firefox ###
 1. Copy the `firefox-css/chrome` folder into your Firefox profile directory. To find your profile directory, go to about:support. Alternatively, you can symlink your chrome folder instead of copying
 2. In about:config Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` (default is false).

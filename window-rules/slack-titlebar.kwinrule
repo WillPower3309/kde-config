@@ -1,0 +1,14 @@
+[Slack Titlebar Color]
+Description=Slack Titlebar Color
+clientmachine=localhost
+clientmachinematch=0
+decocolor=Slack
+decocolorrule=2
+title=Slack | load-testing-taskforce | cscswteam
+titlematch=0
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=slack
+wmclasscomplete=false
+wmclassmatch=1
