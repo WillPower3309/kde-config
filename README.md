@@ -37,7 +37,7 @@ Beautiful macOS esque layout with a "get out of my way when I don't need you" de
   + Digital Clock
 + Right: 
   + System Tray
-  + Window Buttons
+  + [Window Buttons](https://github.com/psifidotos/applet-window-buttons)
   
 ### Global Menu
 + In order to have the global menu work with GTK apps, install `appmenu-gtk-module`
