@@ -45,6 +45,14 @@ Beautiful macOS esque layout with a "get out of my way when I don't need you" de
 
 ## Application Theming
 
+### Firefox ###
+1. Copy the `firefox-css/chrome` folder into your Firefox profile directory. To find your profile directory, go to about:support. Alternatively, you can symlink your chrome folder instead of copying
+2. In about:config Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` (default is false).
+3. In about:config Set `full-screen-api.ignore-widgets` to `true`
+4. Restart Firefox
+
+Theme used from [dpcdpc11's Simplify Silver Peach](https://www.deviantart.com/dpcdpc11/art/Simplify-Silver-Peach-for-Firefox-userChrome-css-837727434)
+
 ### Emacs
 + Install [doom emacs](https://github.com/hlissner/doom-emacs)
 
