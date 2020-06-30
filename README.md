@@ -4,20 +4,18 @@ Optimal configuration files for the KDE Desktop Environment
 ![](/thumbnail.png)
 
 ## Tiling
-+ Install `Krohnkite` though the KWin Scripts section of the System Settings
-+ Run the following commend to get access to changing Krohnkite's settings in the KWin Scripts settings:
++ Install `kwin-tiling` though the KWin Scripts section of the System Settings
++ Run the following commend to get access to changing the tiling settings in the KWin Scripts settings area:
 
 ```
 mkdir -p ~/.local/share/kservices5/
-ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kservices5/krohnkite.desktop
+ln -s ~/.local/share/kwin/scripts/k ~/.local/share/kwin/scripts/kwin-script-tiling/metadata.desktop ~/.local/share/kservices5/kwin-script-tiling.desktop
 ```
 
-+ Enable Krohnkite and access its settings
-  + In `Layout` deselect every layout except `Tile Layout`
-  + Add a desired gap in `Geometry` (I like 15 for normal DPI displays)
-  + In `Behaviour` select `Directional` in the `Directional Keys Behaviours` area
-  + In `Options` select `Remove borders of tiled windows`
-  + Apply changes
++ Enable Tiling Extension and access its settings
+  + Check "Remove window borders on tiled windows"
+  + Set the placement method to "Open new tiles at the end"
+  + Set desired gaps under the "Gaps" tab. Personally, I have all fields set to 12, and both "Gaps between windows" fields set to 6
 + In `System Settings`, under `Window Behaviour`, change the `Window activation policy` to `Focus follows mouse` and set `Delay focus` to `0ms`
 
 ## Shortcuts
