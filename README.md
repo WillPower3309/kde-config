@@ -15,7 +15,7 @@ ln -s ~/.local/share/kwin/scripts/k ~/.local/share/kwin/scripts/kwin-script-tili
 + Enable Tiling Extension and access its settings
   + Check "Remove window borders on tiled windows"
   + Set the placement method to "Open new tiles at the end"
-  + Set desired gaps under the "Gaps" tab. Personally, I have all fields set to 12, and both "Gaps between windows" fields set to 6
+  + Set desired gaps under the "Gaps" tab. Check off "Also apply for windows that take up the screen". Personally, I have all fields set to 12, and both "Gaps between windows" fields set to 6
 + In `System Settings`, under `Window Behaviour`, change the `Window activation policy` to `Focus follows mouse` and set `Delay focus` to `0ms`
 
 ## Shortcuts
