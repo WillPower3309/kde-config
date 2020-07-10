@@ -9,7 +9,7 @@ Optimal configuration files for the KDE Desktop Environment
 
 ```
 mkdir -p ~/.local/share/kservices5/
-ln -s ~/.local/share/kwin/scripts/k ~/.local/share/kwin/scripts/kwin-script-tiling/metadata.desktop ~/.local/share/kservices5/kwin-script-tiling.desktop
+ln -s ~/.local/share/kwin/scripts/kwin-script-tiling/metadata.desktop ~/.local/share/kservices5/kwin-script-tiling.desktop
 ```
 
 + Enable Tiling Extension and access its settings
